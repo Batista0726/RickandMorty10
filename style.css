@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 1em;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    background-image: url('./img/background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    height: auto;
+}
+
+.card {
+    background-color: #9ca1a5cb;
+    padding: 2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 150ms ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all 150ms ease-in;
+}
+
+h3 {
+    border-bottom: 4px dotted pink;
+    width: 90%;
+    font-size: 2rem;
+    color: green;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
